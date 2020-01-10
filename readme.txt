@@ -2,7 +2,7 @@
 Contributors: KZeni
 Donate link: https://www.paypal.me/KZeni
 Tags: Admin Bar, adminbar, ui, ui fix, overflow, wrapping
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 Tested up to: 5.3.2
 Requires at least: 4.6
 Requires PHP: 5.4
@@ -12,6 +12,8 @@ Fixes the wrap behavior of the WordPress admin bar when it has too many items. K
 == Description ==
 
 Fixes the wrap behavior of the WordPress admin bar when it has too many items. Keep it neat; don't spill/overflow into the content.
+
+Check things out on GitHub at [https://github.com/KZeni/Admin-Bar-Wrap-Fix](https://github.com/KZeni/Admin-Bar-Wrap-Fix)
 
 == Frequently Asked Questions ==
 
@@ -26,6 +28,12 @@ I would think so. This has been submitted as a patch at https://core.trac.wordpr
 3. What WordPress currently does without this plugin (overlapping items hijack hover and makes things inaccessible, and the user experience is generally broken).
 
 == Changelog ==
+
+= 1.0.1 =
+
+Released January 9th, 2020
+
+* Added GitHub info to description.
 
 = 1.0.0 =
 

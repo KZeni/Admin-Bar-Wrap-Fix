@@ -2,7 +2,7 @@
 /*
 Plugin Name: Admin Bar Wrap Fix
 Description: Fixes the wrap behavior of the WordPress admin bar when it has too many items. Keep it neat; don't spill/overflow into the content.
-Version: 1.0.0
+Version: 1.0.1
 Author: KZeni
 Author URI: http://kzeni.com
 */
