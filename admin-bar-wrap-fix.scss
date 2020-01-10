@@ -1,0 +1,55 @@
+/* Improve spacing and prevent Site Title from eating WP Logo */
+#wpadminbar {
+	.quicklinks > ul > li,
+	.quicklinks .ab-item {
+		max-width: 100px;
+	}
+}
+/* Media Query - Min-Width: 1061px */
+@media only screen and (min-width: 66.3125em) {
+	#wpadminbar {
+		.quicklinks > ul > li,
+		.quicklinks .ab-item {
+			/* Reset the spacing. */
+			max-width: initial;
+			text-overflow: clip;
+		}
+	}
+}
+@media screen and (min-width: 782px){
+	/* Prevent wrapping of admin bar that has more items than admin bar area */
+	#wpadminbar {
+		.quicklinks {
+			justify-content:space-between;
+			> ul > li {
+				float:none!important;
+			}
+			> ul > li,
+			.ab-item {
+				white-space:nowrap;
+				text-overflow:ellipsis;
+				min-width:0!important;
+			}
+			.ab-item {
+				overflow:hidden;
+				.ab-label,
+				.display-name {
+					float:none;
+					display:inline;
+				}
+			}
+		}
+		.quicklinks,
+		.quicklinks > ul {
+			display:-ms-flexbox;
+			display:flex;
+			flex-wrap:nowrap;
+			-ms-flex-wrap:nowrap;
+			min-width:0!important;
+		}
+		#wp-admin-bar-top-secondary {
+			flex-direction:row-reverse;
+			-ms-flex-direction:row-reverse;
+		}
+	}
+}
