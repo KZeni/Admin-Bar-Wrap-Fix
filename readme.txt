@@ -2,7 +2,7 @@
 Contributors: KZeni
 Donate link: https://www.paypal.me/KZeni
 Tags: Admin Bar, adminbar, ui, ui fix, overflow, wrapping
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 Tested up to: 5.4
 Requires at least: 4.6
 Requires PHP: 5.4
