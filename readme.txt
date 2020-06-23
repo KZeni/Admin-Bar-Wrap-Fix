@@ -31,7 +31,7 @@ I would think so. This has been submitted as a patch at https://core.trac.wordpr
 
 = 1.0.3 =
 
-Released March 6th, 2020
+Released June 22nd, 2020
 
 * Updated to confirm WordPress 5.4.2 compatibility. Minor plugin metadata updates.
 
