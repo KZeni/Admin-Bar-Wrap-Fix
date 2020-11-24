@@ -6,19 +6,21 @@
  * Author: KZeni
  * Author URI: http://kzeni.com
  * License: GPLv3
- * Version: 1.0.5
+ * Version: 1.0.6
  * Requires at least: 4.6
- * Tested up to: 5.5
+ * Tested up to: 5.6
  */
 
-define('ADMIN_BAR_WRAP_FIX_PLUGIN_VERSION','1.0.5');
-define('ADMIN_BAR_WRAP_FIX_PLUGIN_PRIMARY_FILE',__FILE__);
-define('ADMIN_BAR_WRAP_FIX_PLUGIN_DIR_PATH',plugin_dir_path(ADMIN_BAR_WRAP_FIX_PLUGIN_PRIMARY_FILE));
-define('ADMIN_BAR_WRAP_FIX_PLUGIN_DIR_URL',plugin_dir_url(ADMIN_BAR_WRAP_FIX_PLUGIN_PRIMARY_FILE));
+define('ADMIN_BAR_WRAP_FIX_PLUGIN_VERSION', '1.0.6');
+define('ADMIN_BAR_WRAP_FIX_PLUGIN_PRIMARY_FILE', __FILE__);
+define('ADMIN_BAR_WRAP_FIX_PLUGIN_DIR_PATH', plugin_dir_path(ADMIN_BAR_WRAP_FIX_PLUGIN_PRIMARY_FILE));
+define('ADMIN_BAR_WRAP_FIX_PLUGIN_DIR_URL', plugin_dir_url(ADMIN_BAR_WRAP_FIX_PLUGIN_PRIMARY_FILE));
 
-function add_wp_adminbar_wrap_fix_css() {
-	if(is_admin_bar_showing()){ // Only bother to include stylesheet when the admin bar is being shown
-		wp_register_style('admin-bar-wrap-fix',plugins_url('/admin-bar-wrap-fix.css',__FILE__),array(),ADMIN_BAR_WRAP_FIX_PLUGIN_VERSION,'screen');
+function add_wp_adminbar_wrap_fix_css()
+{
+	if (is_admin_bar_showing()) {
+		// Only bother to include stylesheet when the admin bar is being shown
+		wp_register_style('admin-bar-wrap-fix', plugins_url('/admin-bar-wrap-fix.css', __FILE__), [], ADMIN_BAR_WRAP_FIX_PLUGIN_VERSION, 'screen');
 		wp_enqueue_style('admin-bar-wrap-fix');
 	}
 }
