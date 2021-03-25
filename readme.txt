@@ -3,7 +3,7 @@ Contributors: KZeni
 Donate link: https://www.paypal.me/KZeni
 License: GPLv3
 Tags: Admin Bar, adminbar, ui, ui fix, overflow, wrapping
-Stable tag: 1.0.7
+Stable tag: 1.1
 Tested up to: 5.7
 Requires at least: 4.6
 Requires PHP: 5.4
@@ -20,7 +20,7 @@ Check things out on GitHub at [https://github.com/KZeni/Admin-Bar-Wrap-Fix](http
 
 = Shouldn't this be fixed within WordPress itself? =
 
-I would think so. This has been submitted as a patch at https://core.trac.wordpress.org/ticket/44438, but I figured it would still be beneficial as a plugin in the meantime.
+I would think so. This has been submitted as a patch at [core ticket #44438](https://core.trac.wordpress.org/ticket/28983) & [core GitHub pull request #1082](https://github.com/WordPress/wordpress-develop/pull/1082), but I figured it would still be beneficial as a plugin to solve things for people in the meantime.
 
 == Screenshots ==
 
@@ -29,6 +29,14 @@ I would think so. This has been submitted as a patch at https://core.trac.wordpr
 3. What WordPress currently does without this plugin (overlapping items hijack hover and makes things inaccessible, and the user experience is generally broken).
 
 == Changelog ==
+
+= 1.1 =
+
+Released March 25th, 2021
+
+* Removed an unnecessary truncation.
+* Made the CSS code smaller & simpler.
+* Updated info to point to the current WordPress Core [Trac ticket](https://core.trac.wordpress.org/ticket/28983) and [GitHub pull request](https://github.com/WordPress/wordpress-develop/pull/1082).
 
 = 1.0.7 =
 
