@@ -3,7 +3,7 @@ Contributors: KZeni
 Donate link: https://www.paypal.me/KZeni
 License: GPLv3
 Tags: Admin Bar, adminbar, ui, ui fix, overflow, wrapping
-Stable tag: 1.1
+Stable tag: 1.2
 Tested up to: 5.7
 Requires at least: 4.6
 Requires PHP: 5.4
@@ -29,6 +29,12 @@ I would think so. This has been submitted as a patch at [core ticket #44438](htt
 3. What WordPress currently does without this plugin (overlapping items hijack hover and makes things inaccessible, and the user experience is generally broken).
 
 == Changelog ==
+
+= 1.2 =
+
+Released May 31st, 2021
+
+* Mobile admin bar is now accounted for as plugins have recently been adding their own items to the mobile menu as well & potentially causing items wrap onto a new line outside of the admin bar given the available space. Instead of wrapping to overlap the actual content, it simply offers a horizontal scroll for when there are too many items to show on screen at once (keeping the items all within the admin bar's one row of icons.)
 
 = 1.1 =
 

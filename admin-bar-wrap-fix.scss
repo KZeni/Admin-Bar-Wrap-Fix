@@ -1,5 +1,5 @@
 @media screen and (min-width: 782px) {
-	// Prevent wrapping of admin bar that has more items than admin bar area
+	// Prevent wrapping of admin bar that has more items than admin bar area on desktop/tablet layout
 	#wpadminbar {
 		.quicklinks {
 			justify-content: space-between;
@@ -32,6 +32,27 @@
 		#wp-admin-bar-top-secondary {
 			flex-direction: row-reverse;
 			-ms-flex-direction: row-reverse;
+		}
+	}
+}
+@media screen and (max-width: 782px) {
+	// Prevent wrapping of admin bar that has more items than admin bar area on mobile layout
+	#wpcontent {
+		padding-top: 15px; // Browser scrollbar dimension per https://codepen.io/sambible/post/browser-scrollbar-widths(with the overflow-y:hidden; handling the difference between them)
+	}
+	#wpadminbar {
+		display: flex;
+		flex-wrap: nowrap;
+		padding-bottom: 15px; // Browser scrollbar dimension per https://codepen.io/sambible/post/browser-scrollbar-widths (with the overflow-y:hidden; handling the difference between them)
+		overflow-x: scroll;
+		overflow-y: hidden;
+		> *,
+		.ab-top-menu {
+			display: flex;
+			flex-wrap: nowrap;
+		}
+		.ab-sub-wrapper {
+			display: none !important;
 		}
 	}
 }
