@@ -8,7 +8,7 @@
  * License: GPLv3
  * Version: 1.2.1
  * Requires at least: 4.6
- * Tested up to: 5.7
+ * Tested up to: 5.8
  */
 
 define('ADMIN_BAR_WRAP_FIX_PLUGIN_VERSION', '1.2.1');
