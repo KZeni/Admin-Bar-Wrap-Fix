@@ -6,12 +6,12 @@
  * Author: KZeni
  * Author URI: https://kzeni.com
  * License: GPLv3
- * Version: 1.2.4
+ * Version: 1.2.5
  * Requires at least: 4.6
- * Tested up to: 6.1
+ * Tested up to: 6.2
  */
 
-define('ADMIN_BAR_WRAP_FIX_PLUGIN_VERSION', '1.2.4');
+define('ADMIN_BAR_WRAP_FIX_PLUGIN_VERSION', '1.2.5');
 define('ADMIN_BAR_WRAP_FIX_PLUGIN_PRIMARY_FILE', __FILE__);
 define('ADMIN_BAR_WRAP_FIX_PLUGIN_DIR_PATH', plugin_dir_path(ADMIN_BAR_WRAP_FIX_PLUGIN_PRIMARY_FILE));
 define('ADMIN_BAR_WRAP_FIX_PLUGIN_DIR_URL', plugin_dir_url(ADMIN_BAR_WRAP_FIX_PLUGIN_PRIMARY_FILE));
