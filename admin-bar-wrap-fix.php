@@ -9,6 +9,7 @@
  * Version: 1.2.5
  * Requires at least: 4.6
  * Tested up to: 6.2
+ * Requires PHP: 5.4
  */
 
 define('ADMIN_BAR_WRAP_FIX_PLUGIN_VERSION', '1.2.5');
