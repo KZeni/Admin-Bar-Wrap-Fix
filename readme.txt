@@ -3,8 +3,8 @@ Contributors: KZeni
 Donate link: https://www.paypal.me/KZeni
 License: GPLv3
 Tags: Admin Bar, adminbar, ui, ui fix, overflow, wrapping
-Stable tag: 1.2.4
-Tested up to: 6.1
+Stable tag: 1.2.6
+Tested up to: 6.3
 Requires at least: 4.6
 Requires PHP: 5.4
 
@@ -29,6 +29,18 @@ I would think so. This has been submitted as a patch at [core ticket #44438](htt
 3. What WordPress currently does without this plugin (overlapping items hijack hover and makes things inaccessible, and the user experience is generally broken).
 
 == Changelog ==
+
+= 1.2.6 =
+
+Released July 24th, 2023
+
+* Confirmed WordPress 6.3 compliance.
+
+= 1.2.5 =
+
+Released March 20th, 2023
+
+* Confirmed WordPress 6.2 compliance.
 
 = 1.2.4 =
 
